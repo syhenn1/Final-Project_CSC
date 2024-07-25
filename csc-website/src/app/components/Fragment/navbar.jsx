@@ -13,7 +13,10 @@ return (
     </Link>
 
     <div className='flex justify-between gap-[40px] text-center text-[20px]'>
-        <Link href={'#'} className='flex'>Divisi<Image src={dropdown} width={25} className='ml-[10px]'></Image></Link>
+        <Link href={'#'} className='flex'>
+            
+            <Image src={dropdown} width={25} className='ml-[10px]'></Image>
+        </Link>
         <Link href={'#'}>About Us</Link>
         <Link href={'#'}>Events</Link>
         <Link href={'#'}>FAQ</Link>

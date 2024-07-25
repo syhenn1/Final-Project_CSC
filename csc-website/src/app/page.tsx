@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "../app/components/navbar"
+import Navbar from "../app/components/fragment/navbar"
 import background from "@/app/components/images/2302035.jpg"
 import qmark from "@/app/components/images/Question-mark-blackandwhite.png"
 import Link from "next/link"
