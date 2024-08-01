@@ -32,7 +32,7 @@ export default function Navbar() {
                         <Link href='../Divisi/Cyber' className='block px-4 py-2 text-black hover:bg-gray-100'>Cyber Security</Link>
                     </div>
                 </div>
-                <Link href={'#'}>About Us</Link>
+                <Link href={'../../About'}>About Us</Link>
                 <Link href={'#'}>Events</Link>
                 <Link href={'#'}>FAQ</Link>
             </div>

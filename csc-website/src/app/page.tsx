@@ -3,7 +3,6 @@ import background from "@/app/components/images/2302035.jpg";
 import qmark from "@/app/components/images/Question-mark-blackandwhite.png";
 import Link from "next/link";
 import contactlogo from "@/app/components/images/contactuslogo.png";
-import Footer from '@/app/components/Fragment/Footer';
 import pythonlogo from '@/app/components/images/python.png';
 import cybersecuritylogo from '@/app/components/images/cyber-security.png';
 import explorelogo from '@/app/components/images/explorerlogo.png';
