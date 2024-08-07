@@ -1,4 +1,4 @@
-import Banner from "../components/Fragment/Banner";
+import BannerAbout from "../components/Fragment/Banner/BannerAbout";
 import Image from "next/image";
 import Glass from "../components/images/glass.png";
 import Timeline from "../components/Fragment/Timeline";
@@ -7,9 +7,7 @@ const AboutUsPage = ()=>{
     return(
         <div>
             <div>
-                <Banner title= "About Us">
-                    Temukan informasi lengkap mengenai Computer Student Club
-                </Banner>
+                <BannerAbout />
                 <div className="my-[35px] flex flex-col items-center w-full">
                     <h1 className="font-black text-[30px] text-center">Profile CSC</h1>
                     <hr className="w-[900px] border-2 border-black self-center"/>
