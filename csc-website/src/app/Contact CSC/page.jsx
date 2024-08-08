@@ -60,7 +60,7 @@ const ContactForm = () => {
           </a>
         </div>
         <div className="method">
-          <a href="https://discord.gg/your_discord_invite" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/7nxzwkMDfB" target="_blank" rel="noopener noreferrer">
             <img src={discordIcon} alt="Discord" />
             <button>Join Server Discord</button>
           </a>
