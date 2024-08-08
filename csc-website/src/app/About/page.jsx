@@ -10,11 +10,11 @@ const AboutUsPage = ()=>{
                 <BannerAbout />
                 <div className="my-[35px] flex flex-col items-center w-full">
                     <h1 className="font-black text-[30px] text-center">Profile CSC</h1>
-                    <hr className="w-[900px] border-2 border-black self-center"/>
-                    <div className="flex w-[900px]  gap-5 mt-10 self-center">
+                    <hr className="lg:w-[900px] border-2 border-black self-center"/>
+                    <div className="flex lg:w-[900px] md: gap-5 mt-10 justify-center items-center">
                         <Image 
                         src={Glass} 
-                        className="object-cover w-[400px] h-[250px] self-center"
+                        className="hidden lg:block object-cover w-[400px] h-[250px] self-center"
                         alt="Glass" />
                         <h3>
                         Computer Student Club (CSC) adalah kelompok studi mahasiswa di bawah naungan Jurusan Teknik Informatika dan Komputer, Politeknik Negeri Jakarta. Dengan fokus pada pengembangan minat dan bakat mahasiswa dalam bidang teknologi, CSC telah menjadi wadah untuk pemahaman yang lebih dalam tentang keamanan jaringan, pengembangan perangkat lunak, dan Internet of Things (IoT). Sejak berdiri pada tahun 2012, CSC telah berkomitmen untuk memberikan pengetahuan teknologi yang berharga, menginspirasi inovasi, dan mendukung prestasi mahasiswa dalam berbagai kegiatan dan proyek yang kami jalankan.
@@ -28,9 +28,9 @@ const AboutUsPage = ()=>{
                             Menjadi wadah pengembangan minat dan bakat mahasiswa di bidang teknologi yang berfokus pada keamanan jaringan, pengembangan perangkat lunak, dan Internet of Things (IoT) yang menginspirasi inovasi dan menghasilkan pemimpin masa depan dalam dunia teknologi.
                         </p>
                     </div>
-                    <div className="flex-1 flex flex-col justify-center  h-full">
+                    <div className="flex-1 flex flex-col justify-center text-center  h-full">
                         <h2 className="text-2xl font-bold mb-4 pt-5">Misi</h2>
-                        <ul className="list-disc ml-5 text-start">
+                        <ul className="list-disc text-start ml-5">
                             <li>Memberikan pemahaman mendalam tentang teknologi dan mendukung perkembangan keahlian mahasiswa.</li>
                             <li>Menyediakan platform untuk eksplorasi dan penerapan konsep-konsep teknologi yang relevan.</li>
                             <li>Mendorong kolaborasi antara anggota, alumni, dan mitra industri untuk menciptakan solusi yang berdampak.</li>

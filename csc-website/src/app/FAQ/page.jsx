@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useRef, useEffect } from "react";
-import Banner from "../components/Fragment/Banner";
+import BannerFaq from "../components/Fragment/Banner/BannerFaq";
 import Image from "next/image";
 import dropdown from '@/app/components/images/caret-down.png';
 
@@ -104,9 +104,7 @@ const FaqPage = () => {
 
     return (
         <div>
-            <Banner title="Frequently Asked Question">
-                Hal-hal yang sering ditanyakan terkait CSC!
-            </Banner>
+            <BannerFaq />
             <div className="flex flex-col bg-white w-full px-[240px] pb-10">
                 {faqs.map((section, index) => (
                     <div key={index}>
