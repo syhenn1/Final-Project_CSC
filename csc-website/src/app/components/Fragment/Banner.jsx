@@ -3,7 +3,7 @@ import background from "@/app/components/images/2302035.jpg";
 import { Children } from "react";
 import cscLogo from "@/app/components/images/media.png";
 
-import faqlogo from "@/app/components/images/faqlogo.png"
+import faqlogo from "@/app/components/images/question.png"
 
 export default function Banner(props){
     const {title,children} = props

@@ -12,8 +12,8 @@ export default function BannerEvents(){
                     alt="background"
                 />
             </BannerLayout.Logo>
-            <BannerLayout.Text title="About Us">
-                Temukan informasi lengkap mengenai Computer Student Club
+            <BannerLayout.Text title="Events">
+                Kegiatan yang kita lakukan di CSC!
             </BannerLayout.Text>
         </BannerLayout>
     );

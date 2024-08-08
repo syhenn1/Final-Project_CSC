@@ -30,7 +30,7 @@ export default function Home() {
               Kami adalah kelompok studi mahasiswa di bawah naungan jurusan TIK Politeknik Negeri Jakarta. Berfokus pada pengembangan minat dan bakat mahasiswa serta meningkatkan capaian prestasi mahasiswa.
             </h3>
             <Link
-              href="#"
+              href="/About"
               className="flex mt-[190px] justify-center transition ease-in-out delay-100 rounded-lg border-white border-2 bg-white-0 p-[10px] font-black text-white text-[25px] hover:bg-white hover:text-black hover:border-black hover:border-2 hover:opacity-100"
             >
               Learn More
@@ -47,11 +47,11 @@ export default function Home() {
                 interaktif dan praktek secara langsung yang membahas berbagai aspek teknologi. 
                 Kelas yang kami adakan bertujuan untuk membantu memperluas pemahaman mahasiswa 
                 tentang keamanan siber, pengembangan perangkat lunak, dan perangkat IoT. </p>
-                <Link href='#' className='transition ease-in-out delay-100 rounded-lg border-blue-400 border-2 bg-blue-400 p-[10px] font-black text-white text-[25px] hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border-2'>Halaman FAQ</Link>
+                <Link href='/FAQ' className='transition ease-in-out delay-100 rounded-lg border-blue-400 border-2 bg-blue-400 p-[10px] font-black text-white text-[25px] hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border-2'>Halaman FAQ</Link>
             </div>
           </div>
           <div className="flex gap-[50px]">
-          <Image src={contactlogo} alt="contactlogo" width={1350}></Image>
+          <Image src={contactlogo} alt="contactlogo" width={300}></Image>
             <div>
               <h1 className="text-black text-[40px] font-black">Boleh tanya-tanya dulu?</h1>
               <p className="text-black text-[25px] mb-[30px]">Boleh banget! Kami selalu siap untuk menjawab pertanyaan dari anggota, non-anggota, atau siapa pun yang tertarik. 
@@ -72,17 +72,17 @@ export default function Home() {
             <div className="bg-white w-[400px] h-[600px] flex flex-col justify-between items-center p-4 shadow-lg mx-2 rounded-lg">
               <Image src={pythonlogo} alt="pythonlogo" width={300} className=""/>
               <div className="text-black text-[30px] mt-4 px-5">Software Development</div>
-              <button className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</button>
+              <Link href='../Divisi/Softdev' className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</Link>
             </div>
             <div className="bg-white w-[400px] h-[600px] flex flex-col justify-between items-center p-4 shadow-lg mx-2 rounded-lg">
               <Image src={cybersecuritylogo} alt="cybersecuritylogo" width={300} className=""/>
               <div className="text-black text-[30px] mt-4">Cyber Security</div>
-              <button className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</button>
+              <Link href='../Divisi/Cyber' className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</Link>
             </div>
             <div className="bg-white w-[400px] h-[600px] flex flex-col justify-between items-center p-4 shadow-lg mx-2 rounded-lg">
               <Image src={explorelogo} alt="explorerlogo" width={300} className=""/>
-              <div className="text-black text-[30px] mt-4">Explorer</div>
-              <button className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</button>
+              <div className="text-black text-[30px] mt-4">Explore</div>
+              <Link href='../Divisi/Explore' className="bg-black text-white px-10 py-4 mt-2 rounded-lg hover:bg-gray-200 hover:text-black transition ease-in-out delay-100">Learn More</Link>
             </div>
           </div>
         </div>

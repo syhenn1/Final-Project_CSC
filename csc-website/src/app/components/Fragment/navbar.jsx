@@ -55,7 +55,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <Link href={'../../About'}>About Us</Link>
-                <Link href={'#'}>Events</Link>
+                <Link href={'../../Events'}>Events</Link>
                 <Link href={'../../FAQ'}>FAQ</Link>
             </div>
             <Link href={'../../Register'} className='right-0 mt-[-15px] mr-[45px] px-[30px] py-[20px] bg-blue-400 absolute rounded-[15px] text-[20px]'>Daftar</Link>
