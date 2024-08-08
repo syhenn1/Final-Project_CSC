@@ -57,7 +57,7 @@ export default function Home() {
               <p className="text-black text-[25px] mb-[30px]">Boleh banget! Kami selalu siap untuk menjawab pertanyaan dari anggota, non-anggota, atau siapa pun yang tertarik. 
                 Anda dapat menghubungi kami melalui Whatsapp atau Instagram kami. Kami berkomitmen untuk memberikan jawaban informatif dan membantu menjawab apapun pertanyaan yang anda miliki. 
                 Jangan ragu untuk bertanya atau berdiskusi dengan kami!  </p>
-                <Link href='#' className='transition ease-in-out delay-100 rounded-lg border-blue-400 border-2 bg-blue-400 p-[10px] font-black text-white text-[25px] hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border-2'>Contact Us</Link>
+                <Link href='/Contact' className='transition ease-in-out delay-100 rounded-lg border-blue-400 border-2 bg-blue-400 p-[10px] font-black text-white text-[25px] hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border-2'>Contact Us</Link>
             </div>
           </div>
         </div>
