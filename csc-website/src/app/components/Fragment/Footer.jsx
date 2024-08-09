@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import InstagramIcon from '@/app/components/images/instagram.png';
-import EmailIcon from '@/app/components/images/Email.png';
+import EmailIcon from '@/app/components/images/email.png';
 import TwitterIcon from '@/app/components/images/twitter.png';
 import csc from '@/app/components/images/media.png';
 import telephone from '@/app/components/images/old-phone.png';

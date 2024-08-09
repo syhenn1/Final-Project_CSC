@@ -4,7 +4,6 @@ import { useState, useRef, useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from '@/app/components/Fragment/navbar';
-import Footer from '@/app/components/Fragment/Footer';
 import pythonlogo from '@/app/components/images/python.png';
 import mentor1 from '@/app/components/images/rayhan.png';
 import mentor2 from '@/app/components/images/fadhil.png';
