@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import csc from '@/app/components/images/media.png';
 import dropdown from '@/app/components/images/caret-down.png';
-import { usePathname } from 'next/navigation'; // Import usePathname
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons for hamburger menu
+import { usePathname } from 'next/navigation';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -57,13 +57,13 @@ export default function Navbar() {
     return (
         <nav className={`z-50 w-full fixed left-0 right-0 px-4 sm:px-[50px] md:px-[100px] lg:px-[150px] xl:px-[225px] py-4 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
             <div className="flex items-center justify-between">
-                <Link href="/" className={`flex items-center text-[20px] lg:text-[25px] transition-colors duration-300 ${isScrolled ? 'text-black' : 'text-white'}`}>
+                <Link href="/" className={`flex items-center text-[20px] lg:text-[25px] transition-colors duration-300 ${isScrolled ? 'text-black' : 'text-white'} lg:text-black`}>
                     <Image src={csc} width={40} height={40} alt="CSC Logo" />
                     <span className="ml-2 lg:ml-3">Computer Student Club</span>
                 </Link>
 
                 <div className="lg:hidden">
-                    <button onClick={toggleMenu} className={`text-[25px] transition-colors duration-300 ${isScrolled ? 'text-black' : 'text-white'}`}>
+                    <button onClick={toggleMenu} className="text-black text-[25px]">
                         {isMenuOpen ? <FaTimes /> : <FaBars />}
                     </button>
                 </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
                         </button>
                     </div>
 
-                    <div className={`relative lg:flex items-center gap-[20px] lg:gap-[30px] xl:gap-[40px] text-black`}>
+                    <div className="relative lg:flex items-center gap-[20px] lg:gap-[30px] xl:gap-[40px] text-black">
                         <div className='relative' ref={dropdownRef}>
                             <button onClick={toggleDropdown} className='flex items-center'>
                                 Divisi
@@ -96,7 +96,7 @@ export default function Navbar() {
                         <Link href='/Events' className='block lg:inline-block mt-4 lg:mt-0'>Events</Link>
                         <Link href='/FAQ' className='block lg:inline-block mt-4 lg:mt-0'>FAQ</Link>
                         <Link href='/Contact' className='block lg:inline-block mt-4 lg:mt-0'>Contact</Link>
-                        <Link href='/Register' className='block lg:inline-block mt-4 lg:mt-0 px-[20px] lg:px-[30px] py-[8px] lg:py-[10px] bg-blue-400 rounded-[15px] text-[18px] lg:text-[20px] text-white'>Daftar</Link>
+                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSd_2tVJvxCEvmyy1iK0oXVk3QbDf35D51QJSGyqxrBwCO1R9A/closedform' className='block lg:inline-block mt-4 lg:mt-0 px-[20px] lg:px-[30px] py-[8px] lg:py-[10px] bg-blue-400 rounded-[15px] text-[18px] lg:text-[20px] text-white'>Daftar</Link>
                     </div>
                 </div>
             </div>

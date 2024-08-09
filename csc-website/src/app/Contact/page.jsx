@@ -21,25 +21,27 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { name, email, message } = formData;
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
 
-    if (!name || !email || !message) {
-      alert('Semua bidang harus diisi!');
-      return;
+    formData.append("access_key", "1a11ad47-d6f0-4d17-ba43-72be0c1d377e");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+      alert("Pesan berhasil dikirim!");
     }
-
-    const emailContent = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
-
-    // Simulate sending email
-    console.log('Sending email with the following content:');
-    console.log(emailContent);
-
-    alert('Pesan telah dikirim!');
-
-    // Clear the form
-    setFormData({ name: '', email: '', message: '' });
   };
 
   return (

@@ -105,19 +105,21 @@ const FaqPage = () => {
     return (
         <div>
             <BannerFaq />
-            <div className="flex flex-col bg-white w-full px-[240px] pb-10">
+            <div className="flex flex-col bg-white w-full px-4 sm:px-6 md:px-[240px] pb-10 mt-10">
                 {faqs.map((section, index) => (
                     <div key={index}>
-                        <h1 className="self-center font-black text-[35px] text-black w-full py-10">{section.category}</h1>
+                        <h1 className="font-black text-[24px] sm:text-[28px] md:text-[35px] text-black w-full py-5 text-center mt-5 sm:mt-10">
+                            {section.category}
+                        </h1>
                         {section.items.map((faq, index) => (
                             <CollapsibleItem key={index} title={faq.question} description={faq.answer} />
                         ))}
                     </div>
                 ))}
             </div>
-            <div className="flex flex-col bg-white w-full px-[240px] pb-10 text-black text-[20px]">
-            Kami tidak meminta uang kas dari member baru. Jika kamu dikirimi pesan oleh member pengurus yang meminta uang dengan alasan yang tidak jelas, mohon kirimkan laporan ke admin kami via DM Instagram atau Whatsapp yang tertera pada Kontak Kami.
-            Kami hanya meminta uang saat akan mengadakan acara seperti first gathering, makrab, dll, atau saat membuat merchandise KSM. Dan itu tidak wajib bagi member baru. Hanya yang berminat saja.
+            <div className="flex flex-col bg-white w-full px-4 sm:px-6 md:px-[240px] pb-10 text-black text-[16px] sm:text-[18px] md:text-[20px] mt-5">
+                Kami tidak meminta uang kas dari member baru. Jika kamu dikirimi pesan oleh member pengurus yang meminta uang dengan alasan yang tidak jelas, mohon kirimkan laporan ke admin kami via DM Instagram atau Whatsapp yang tertera pada Kontak Kami.
+                Kami hanya meminta uang saat akan mengadakan acara seperti first gathering, makrab, dll, atau saat membuat merchandise KSM. Dan itu tidak wajib bagi member baru. Hanya yang berminat saja.
             </div>
         </div>
     );
