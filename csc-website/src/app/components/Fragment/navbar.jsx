@@ -96,7 +96,7 @@ export default function Navbar() {
                         <Link href='/Events' className='block lg:inline-block mt-4 lg:mt-0'>Events</Link>
                         <Link href='/FAQ' className='block lg:inline-block mt-4 lg:mt-0'>FAQ</Link>
                         <Link href='/Contact' className='block lg:inline-block mt-4 lg:mt-0'>Contact</Link>
-                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSd_2tVJvxCEvmyy1iK0oXVk3QbDf35D51QJSGyqxrBwCO1R9A/closedform' className='block lg:inline-block mt-4 lg:mt-0 px-[20px] lg:px-[30px] py-[8px] lg:py-[10px] bg-blue-400 rounded-[15px] text-[18px] lg:text-[20px] text-white'>Daftar</Link>
+                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSd_2tVJvxCEvmyy1iK0oXVk3QbDf35D51QJSGyqxrBwCO1R9A/closedform' target='_blank' className='block lg:inline-block mt-4 lg:mt-0 px-[20px] lg:px-[30px] py-[8px] lg:py-[10px] bg-blue-400 rounded-[15px] text-[18px] lg:text-[20px] text-white'>Daftar</Link>
                     </div>
                 </div>
             </div>
