@@ -64,7 +64,7 @@ export default function Explore() {
           className="absolute inset-0 w-full h-full object-cover z-0"
           alt="background"
         />
-        <div className="relative flex flex-col md:flex-row items-center justify-center pt-36 pb-24 bg-opacity-70">
+        <div className="relative flex flex-col md:flex-row items-center justify-center pt-44 pb-24 bg-opacity-70">
           <div className="relative z-10 flex flex-col md:flex-row items-center text-white">
             <div className="flex justify-center mb-4 md:mb-0 mx-auto md:mx-0 text-center">
               <Image
@@ -99,7 +99,7 @@ export default function Explore() {
           </div>
           <div className="flex-grow text-center md:text-left">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Focus Area</h2>
-            <div className="text-base md:text-xl">
+            <div className="text-base md:text-xl text-left">
               <CollapsibleItem
                 title="Pengenalan Internet of Things (IoT)."
                 description="Memahami dasar-dasar IoT, termasuk cara kerja, aplikasi, dan tantangan seperti keamanan dan privasi."
@@ -155,11 +155,7 @@ export default function Explore() {
         <ul className="list-none">
           <li className="flex items-center mb-2">
             <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus1" className="ml-2 text-sm md:text-base">Silabus Explore</Link>
-          </li>
-          <li className="flex items-center">
-            <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus2" className="ml-2 text-sm md:text-base">Silabus Explore</Link>
+            <Link href="https://docs.google.com/document/d/1cbfB-5ni2MjKKhuxEsjybvWSSAGGHIO8J8jTMe_9s98/edit?usp=sharing" target='_blank' className="ml-2 text-sm md:text-base">Silabus Explore</Link>
           </li>
         </ul>
       </div>

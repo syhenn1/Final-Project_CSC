@@ -64,7 +64,7 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover z-0"
           alt="background"
         />
-        <div className="relative flex flex-col md:flex-row items-center justify-center pt-36 pb-24 bg-opacity-70">
+        <div className="relative flex flex-col md:flex-row items-center justify-center pt-44 pb-24 bg-opacity-70">
           <div className="relative z-10 flex flex-col md:flex-row items-center text-white">
             <div className="flex justify-center mb-4 md:mb-0 mx-auto md:mx-0 text-center">
               <Image
@@ -155,11 +155,7 @@ export default function Home() {
         <ul className="list-none">
           <li className="flex items-center mb-2">
             <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus1" className="ml-2 text-sm md:text-base">Silabus Cyber Security</Link>
-          </li>
-          <li className="flex items-center">
-            <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus2" className="ml-2 text-sm md:text-base">Silabus Cyber Security</Link>
+            <Link href="https://drive.google.com/file/d/1VU7ZppllIVihHJnFXuN7hQW9PjWuiWLy/view" target='_blank' className="ml-2 text-sm md:text-base">Silabus Cyber Security</Link>
           </li>
         </ul>
       </div>

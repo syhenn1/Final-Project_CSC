@@ -64,22 +64,21 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover z-0"
           alt="background"
         />
-        <div className="relative flex flex-col md:flex-row items-center justify-center pt-36 pb-24 bg-opacity-70">
+        <div className="relative flex flex-col md:flex-row items-center justify-center pt-44 pb-24 bg-opacity-70">
           <div className="relative z-10 flex flex-col md:flex-row items-center text-white">
             <div className="flex justify-center mb-4 md:mb-0 mx-auto md:mx-0 text-center">
               <Image
                 src={pythonlogo}
-                alt="Software Developer"
+                alt="Explore"
                 width={300}
                 height={300}
                 className="w-full h-auto"
               />
             </div>
-            <div className="max-w-2xl">
+            <div className="max-w-2xl px-4">
               <h1 className="text-5xl text-center font-bold px-4">Software Developer</h1>
               <p className="mt-4 px-4 text-left">
-                Divisi yang menggali dunia pemrograman dengan berfokus pada bahasa pemrograman, teknologi, dan konsep Pemrograman Berorientasi Objek (OOP). Kami menyelenggarakan berbagai proyek pengembangan perangkat lunak dan kompetisi pemrograman, serta berbagi sumber daya belajar dan tutorial bagi anggota kami. 
-                Divisi ini menjadi tempat yang ideal bagi individu yang ingin memperluas pengetahuan mereka dalam pengembangan perangkat lunak, baik untuk pemula maupun mereka yang telah memiliki pengalaman sebelumnya dalam dunia pemrograman.
+              Divisi yang menggali dunia pemrograman dengan berfokus pada bahasa pemrograman, teknologi, dan konsep Pemrograman Berorientasi Objek (OOP). Kami menyelenggarakan berbagai proyek pengembangan perangkat lunak dan kompetisi pemrograman, serta berbagi sumber daya belajar dan tutorial bagi anggota kami. Divisi ini menjadi tempat yang ideal bagi individu yang ingin memperluas pengetahuan mereka dalam pengembangan perangkat lunak, baik untuk pemula maupun mereka yang telah memiliki pengalaman sebelumnya dalam dunia pemrograman.  
               </p>
             </div>
           </div>
@@ -99,7 +98,7 @@ export default function Home() {
           </div>
           <div className="flex-grow text-center md:text-left">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Focus Area</h2>
-            <div className="text-base md:text-xl">
+            <div className="text-base md:text-xl text-left">
               <CollapsibleItem
                 title="Pengembangan Perangkat Lunak dengan Python"
                 description="Detail tentang pengembangan perangkat lunak dengan Python termasuk metodologi, alat, dan teknik."
@@ -155,11 +154,7 @@ export default function Home() {
         <ul className="list-none">
           <li className="flex items-center mb-2">
             <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus1" className="ml-2 text-sm md:text-base">Silabus Software Developer</Link>
-          </li>
-          <li className="flex items-center">
-            <Image src={syllabusIcon} alt="Syllabus Icon" width={20} height={20} />
-            <Link href="/path/to/syllabus2" className="ml-2 text-sm md:text-base">Silabus Software Developer</Link>
+            <Link href="https://docs.google.com/document/d/1ePnv0wGObce5oArHNT96i-AATvp79az5apFK7QNV5ng/edit?usp=sharing" target='_blank' className="ml-2 text-sm md:text-base">Silabus Software Developer</Link>
           </li>
         </ul>
       </div>
